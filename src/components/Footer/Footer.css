@@ -1,0 +1,27 @@
+.footer-container{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebd6fff3;
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 2em;
+}
+
+.footer-section{
+    display: block;
+    flex-direction: column;
+    margin: auto;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 1em;
+}
+
+
+
+

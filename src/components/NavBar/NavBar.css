@@ -1,0 +1,46 @@
+.logo{
+    text-decoration: none;
+    color: #74258f;
+    font-size: 30px;
+    display: flex;
+    align-items: center; 
+    margin: auto;
+    font-family: 'Grandstander', cursive;
+}
+
+img {
+    height: 60px;
+    margin-right: 0.5em;
+}
+
+nav{
+    width: 100%;
+    background-color: #fdf8f2;
+    min-height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+    box-shadow: 0 10px 25px #00000015;
+}
+
+.pages{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    gap: 1rem;
+}
+
+.menu-page{
+    color: #0d000d;
+    font-size: 16px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: color 0.4s;
+    text-decoration: none;
+    margin: auto;
+}
+
+.menu-page:hover{
+    color: #a31fa3;
+}
